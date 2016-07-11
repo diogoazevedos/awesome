@@ -4,7 +4,7 @@ This repository contains all my personal editors and terminal themes settings.
 
 ### Sublime
 
-Copy the follow settings and paste in your [Sublime](https://sublimetext.com) user settings.
+Install the [Package Control](https://packagecontrol.io/installation), copy the follow settings and paste in your [Sublime](https://sublimetext.com) user settings.
 
 ```
 {
@@ -57,11 +57,4 @@ Copy the follow settings and paste in your [Sublime](https://sublimetext.com) us
 }
 ```
 
-> **Optional**: Install the follow plugins
-> - AdvancedNewFile
-> - BracketGuard
-> - BracketHighlighter
-> - DocBlockr
-> - EditorConfig
-> - Emmet
-> - SideBarEnhancements
+> **Optional**: Install the plugins AdvancedNewFile, BracketGuard, BracketHighlighter, DocBlockr, EditorConfig, Emmet, SideBarEnhancements
