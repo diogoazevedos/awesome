@@ -1,20 +1,18 @@
-source $(brew --prefix)/share/antigen/antigen.zsh
+source ~/.zgen/zgen.zsh
 
-# Load the oh-my-zsh's library.
-antigen use oh-my-zsh
+if ! zgen saved; then
+  # Set prezto options.
+  zgen prezto '*:*' color 'yes'
 
-# Bundles from the default repo (robbyrussell's oh-my-zsh).
-antigen bundle git
+  # Load the prezto library and modules.
+  zgen prezto
+	zgen prezto git
+	zgen prezto ruby
+	zgen prezto syntax-highlighting
 
-# Syntax highlighting bundle.
-antigen bundle zsh-users/zsh-syntax-highlighting
+  # Load external modules.
+  zgen load frmendes/geometry
 
-# Load the theme.
-antigen bundle diogoazevedos/hexagon
-
-# Set oh-my-zsh's variables.
-DISABLE_AUTO_TITLE="true"
-DISABLE_AUTO_UPDATE="true"
-
-# Tell antigen that you're done.
-antigen apply
+  # Tell zgen that you're done.
+  zgen save
+fi
