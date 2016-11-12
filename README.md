@@ -6,7 +6,7 @@ This repository contains all my personal editors and terminal themes settings.
 
 Install the [Package Control](https://packagecontrol.io/installation), copy the follow settings and paste in your [Sublime](https://sublimetext.com) user settings.
 
-```
+```json
 {
   "binary_file_pattenrs":
   [
