@@ -6,12 +6,13 @@ if ! zgen saved; then
 
   # Load the prezto library and modules.
   zgen prezto
-	zgen prezto git
-	zgen prezto ruby
-	zgen prezto syntax-highlighting
+  zgen prezto git
+  zgen prezto ruby
+  zgen prezto syntax-highlighting
+  zgen prezto history-substring-search
 
   # Load external modules.
-  zgen load frmendes/geometry
+  zgen load diogoazevedos/hexagon
 
   # Tell zgen that you're done.
   zgen save
