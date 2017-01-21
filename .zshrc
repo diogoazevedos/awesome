@@ -7,7 +7,6 @@ if ! zgen saved; then
   # Load the prezto library and modules.
   zgen prezto
   zgen prezto git
-  zgen prezto ruby
   zgen prezto syntax-highlighting
   zgen prezto history-substring-search
 
