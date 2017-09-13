@@ -20,7 +20,7 @@ Install the [Package Control](https://packagecontrol.io/installation), copy the 
     "*.pdf",
     "*.zip"
   ],
-  "color_scheme": "Packages/User/SublimeLinter/itg.dark (SL).tmTheme",
+  "color_scheme": "Packages/Dracula Color Scheme/Dracula.tmTheme",
   "enable_tab_scrolling": false,
   "file_exclude_patterns":
   [
@@ -31,7 +31,8 @@ Install the [Package Control](https://packagecontrol.io/installation), copy the 
   [
     ".git"
   ],
-  "font_size": 13,
+  "font_face": "Operator Mono",
+  "font_size": 15,
   "highlight_line": true,
   "highlight_modified_tabs": true,
   "ignored_packages":
@@ -51,10 +52,10 @@ Install the [Package Control](https://packagecontrol.io/installation), copy the 
   ],
   "scroll_past_end": true,
   "tab_size": 2,
-  "theme": "itg.flat.dark.sublime-theme",
+  "theme": "Default.sublime-theme",
   "translate_tabs_to_spaces": true,
   "word_wrap": false
 }
 ```
 
-> **Optional**: Install the plugins AdvancedNewFile, BracketGuard, BracketHighlighter, DocBlockr, EditorConfig, Emmet, SideBarEnhancements
+> **Optional**: Install the plugins Dracula Color Scheme, AdvancedNewFile, BracketGuard, BracketHighlighter, DocBlockr, EditorConfig, Emmet, SideBarEnhancements
