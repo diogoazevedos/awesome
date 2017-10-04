@@ -1,4 +1,4 @@
-# Terminal
+# Awesome
 
 This repository contains all my personal editors and terminal themes settings.
 
