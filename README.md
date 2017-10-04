@@ -2,6 +2,13 @@
 
 This repository contains all my personal editors and terminal themes settings.
 
+### Atom
+
+```shell
+$ apm install linter linter-eslint docblockr dracula-syntax editorconfig \
+  file-icons intentions busy-signal linter-ui-default language-blade
+```
+
 ### Sublime
 
 Install the [Package Control](https://packagecontrol.io/installation), copy the follow settings and paste in your [Sublime](https://sublimetext.com) user settings.
