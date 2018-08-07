@@ -3,6 +3,8 @@
   email = diogoazevedos@gmail.com
 [color]
   ui = auto
+[commit]
+  gpgsign = true
 [credential]
   helper = osxkeychain
 [push]
