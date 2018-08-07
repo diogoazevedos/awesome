@@ -14,4 +14,7 @@ cp .gitignore ~/.gitignore
 
 brew bundle
 
+keybase pgp export | gpg --import
+keybase pgp export --secret | gpg --import --allow-secret-key-import
+
 chsh -s $(which zsh)
