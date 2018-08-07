@@ -2,6 +2,8 @@ source ~/.zgen/zgen.zsh
 source ~/.asdf/asdf.sh
 source ~/.asdf/completions/asdf.bash
 
+export GPG_TTY=$(tty)
+
 if ! zgen saved; then
   # Set prezto options.
   zgen prezto '*:*' color 'yes'
