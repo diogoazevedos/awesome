@@ -1,0 +1,17 @@
+#!/bin/bash
+
+set -euo pipefail
+
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+git clone https://github.com/tarjoilija/zgen.git ~/.zgen
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf
+
+cp .zshrc ~/.zshrc
+cp .vimrc ~/.vimrc
+cp .gitconfig ~/.gitconfig
+cp .gitignore ~/.gitignore
+
+brew bundle
+
+chsh -s $(which zsh)
