@@ -1,4 +1,6 @@
 source ~/.zgen/zgen.zsh
+source ~/.asdf/asdf.sh
+source ~/.asdf/completions/asdf.bash
 
 if ! zgen saved; then
   # Set prezto options.
