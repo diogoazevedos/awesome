@@ -1,6 +1,4 @@
 source ~/.zgen/zgen.zsh
-source ~/.asdf/asdf.sh
-source ~/.asdf/completions/asdf.bash
 
 export GPG_TTY=$(tty)
 
