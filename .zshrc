@@ -1,20 +1,26 @@
-source ~/.zgen/zgen.zsh
+source ~/.zplug/init.zsh
 
-export GPG_TTY=$(tty)
+zplug "diogoazevedos/hexagon"
+zplug "sorin-ionescu/prezto", hook-build:"ln -s ~/.zplug/repos/sorin-ionescu/prezto ~/.zprezto"
 
-if ! zgen saved; then
-  # Set prezto options.
-  zgen prezto '*:*' color 'yes'
+zstyle ':prezto:load' pmodule \
+  'environment' \
+  'terminal' \
+  'editor' \
+  'history' \
+  'history-substring-search' \
+  'syntax-highlighting' \
+  'directory' \
+  'spectrum' \
+  'utility' \
+  'completion' \
+  'prompt' \
+  'git'
 
-  # Load the prezto library and modules.
-  zgen prezto
-  zgen prezto git
-  zgen prezto syntax-highlighting
-  zgen prezto history-substring-search
+zstyle ':prezto:*:*' color 'yes'
 
-  # Load external modules.
-  zgen load diogoazevedos/hexagon
-
-  # Tell zgen that you're done.
-  zgen save
+if ! zplug check; then
+  zplug install
 fi
+
+zplug load
