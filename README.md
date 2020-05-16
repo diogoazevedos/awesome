@@ -5,8 +5,7 @@ This repository contains all my personal editors and terminal themes settings.
 ### Atom
 
 ```shell
-$ apm install linter linter-eslint docblockr dracula-syntax editorconfig \
-  file-icons intentions busy-signal linter-ui-default language-blade
+$ apm install linter linter-eslint docblockr dracula-syntax editorconfig file-icons teletype
 ```
 
 ```yaml
