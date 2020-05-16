@@ -9,6 +9,38 @@ $ apm install linter linter-eslint docblockr dracula-syntax editorconfig \
   file-icons intentions busy-signal linter-ui-default language-blade
 ```
 
+```yaml
+"*":
+  core:
+    disabledPackages: [
+      "whitespace"
+    ]
+    themes: [
+      "one-dark-ui"
+      "dracula-syntax"
+    ]
+    useTreeSitterParsers: false
+  editor:
+    fontFamily: "JetBrains Mono"
+    preferredLineLength: 100
+    scrollPastEnd: true
+    showInvisibles: true
+  "find-and-replace":
+    useRipgrep: true
+  "fuzzy-finder":
+    scoringSystem: "fast"
+    useRipGrep: true
+  "linter-eslint":
+    autofix:
+      fixOnSave: true
+    disabling:
+      disableWhenNoEslintConfig: false
+  "markdown-preview":
+    breakOnSingleNewline: true
+  welcome:
+    showOnStartup: false
+```
+
 ### Sublime
 
 Install the [Package Control](https://packagecontrol.io/installation), copy the follow settings and paste in your [Sublime](https://sublimetext.com) user settings.
