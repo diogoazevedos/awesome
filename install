@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 set -euo pipefail
 
@@ -10,6 +10,10 @@ cp .zshrc ~/.zshrc
 cp .vimrc ~/.vimrc
 cp .gitconfig ~/.gitconfig
 cp .gitignore ~/.gitignore
+
+mkdir -p ~/.gnupg
+cp gpg.conf ~/.gnupg
+cp gpg-agent.conf ~/.gnupg
 
 brew bundle
 

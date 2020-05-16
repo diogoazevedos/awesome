@@ -24,3 +24,6 @@ if ! zplug check; then
 fi
 
 zplug load
+
+export GPG_TTY=$(tty)
+export HOMEBREW_GITHUB_API_TOKEN=
