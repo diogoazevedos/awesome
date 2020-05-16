@@ -97,3 +97,48 @@ Install the [Package Control](https://packagecontrol.io/installation), copy the 
 ```
 
 > **Optional**: Install the plugins Dracula Color Scheme, AdvancedNewFile, BracketGuard, BracketHighlighter, DocBlockr, EditorConfig, Emmet, SideBarEnhancements
+
+### Code
+
+```shell
+extensions=(
+  CoenraadS.bracket-pair-colorizer
+  dracula-theme.theme-dracula
+  EditorConfig.EditorConfig
+  justjavac.vscode-deno
+)
+
+for extension in ${extensions[@]}; do
+  code --force --install-extension $extension
+done
+```
+
+```json
+{
+    "workbench.colorTheme": "Dracula",
+    "workbench.startupEditor": "none",
+    "workbench.statusBar.visible": false,
+    "workbench.tips.enabled": false,
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#44475a",
+        "editorBracketMatch.background": "#44475a",
+        "editorBracketMatch.border": "#00000000"
+    },
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+    "git.enableCommitSigning": true,
+    "editor.wordWrapColumn": 100,
+    "editor.fontSize": 14,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    "editor.minimap.enabled": false,
+    "editor.occurrencesHighlight": false,
+    "editor.renderLineHighlight": "gutter",
+    "editor.rulers": [
+        100
+    ],
+    "bracketPairColorizer.showHorizontalScopeLine": false,
+    "bracketPairColorizer.showVerticalScopeLine": false
+}
+```
