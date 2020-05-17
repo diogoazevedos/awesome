@@ -102,10 +102,12 @@ Install the [Package Control](https://packagecontrol.io/installation), copy the 
 
 ```shell
 extensions=(
-  CoenraadS.bracket-pair-colorizer
+  ms-vscode.atom-keybindings
+  ms-vsliveshare.vsliveshare
   dracula-theme.theme-dracula
   EditorConfig.EditorConfig
-  justjavac.vscode-deno
+  mauve.terraform
+  CoenraadS.bracket-pair-colorizer
 )
 
 for extension in ${extensions[@]}; do
@@ -135,6 +137,8 @@ done
     "editor.minimap.enabled": false,
     "editor.occurrencesHighlight": false,
     "editor.renderLineHighlight": "gutter",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
     "editor.rulers": [
         100
     ],
