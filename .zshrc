@@ -4,6 +4,7 @@ zstyle ':antidote:bundle' file ~/.zplugins
 zstyle ':antidote:bundle' use-friendly-names 'yes'
 
 zstyle ':prezto:load' pmodule \
+	'utility' \
 	'completion' \
 	'editor' \
 	'syntax-highlighting' \
@@ -15,7 +16,6 @@ zstyle ':prezto:load' pmodule \
 	'history' \
 	'directory' \
 	'spectrum' \
-	'utility' \
 	'git'
 
 zstyle ':prezto:*:*' color 'yes'
