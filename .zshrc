@@ -1,29 +1,28 @@
-source ~/.zplug/init.zsh
+source /opt/homebrew/opt/antidote/share/antidote/antidote.zsh
 
-zplug "diogoazevedos/hexagon"
-zplug "sorin-ionescu/prezto", hook-build:"ln -s ~/.zplug/repos/sorin-ionescu/prezto ~/.zprezto"
+zstyle ':antidote:bundle' file ~/.zplugins
+zstyle ':antidote:bundle' use-friendly-names 'yes'
 
 zstyle ':prezto:load' pmodule \
-  'environment' \
-  'terminal' \
-  'editor' \
-  'history' \
-  'history-substring-search' \
-  'syntax-highlighting' \
-  'directory' \
-  'spectrum' \
-  'utility' \
-  'completion' \
-  'prompt' \
-  'git'
+	'completion' \
+	'editor' \
+	'syntax-highlighting' \
+	'history-substring-search' \
+	'autosuggestions' \
+	'environment' \
+	'homebrew' \
+	'terminal' \
+	'history' \
+	'directory' \
+	'spectrum' \
+	'utility' \
+	'git'
 
 zstyle ':prezto:*:*' color 'yes'
 
-if ! zplug check; then
-  zplug install
-fi
+antidote load
 
-zplug load
+tabs -4
 
 export GPG_TTY=$(tty)
 export HOMEBREW_GITHUB_API_TOKEN=

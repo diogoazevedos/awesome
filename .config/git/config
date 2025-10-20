@@ -1,0 +1,43 @@
+[user]
+	name = Diogo Azevedo
+	email = diogoazevedos@gmail.com
+	signingKey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIH6ycYBljkjA6shc+K0OlXbSaBKXcpAqkv7Qmy1u/XrW
+[init]
+	defaultBranch = main
+[color]
+	ui = auto
+[commit]
+	gpgSign = true
+[credential]
+	helper = osxkeychain
+[push]
+	default = simple
+[pull]
+	rebase = true
+[core]
+	pager = delta
+	editor = vim
+	excludesFile = ~/.config/git/ignore
+	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+[interactive]
+	diffFilter = delta --color-only
+[merge]
+	conflictStyle = zdiff3
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+	allowedSignersFile = ~/.config/git/allowed_signers
+[delta]
+	navigate = true
+	side-by-side = true
+	syntax-theme = Dracula
+	plus-style = "syntax #244032"
+	plus-emph-style = "syntax #2d5540"
+	minus-style = "syntax #402a32"
+	minus-emph-style = "syntax #5c2e3a"
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

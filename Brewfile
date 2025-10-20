@@ -1,47 +1,53 @@
-tap "homebrew/core"
-tap "homebrew/cask"
-tap "homebrew/bundle"
-brew "jq"
-brew "ghc"
-brew "cabal-install"
-brew "terraform"
-brew "ipcalc"
-brew "graphviz"
+tap "hashicorp/tap"
+brew "antidote"
+# brew "aws-nuke"
+brew "aws-vault"
 brew "awscli"
-brew "node"
-brew "yarn"
-brew "elixir"
-brew "go"
-brew "php"
-brew "composer"
-brew "git"
-brew "git-lfs"
-brew "gnupg"
-brew "pinentry-mac"
-brew "ripgrep"
 brew "bat"
-brew "fd"
-brew "exa"
+brew "bento4"
+# brew "cabal-install"
 brew "dust"
+# brew "elixir"
+brew "eza"
+brew "fd"
+brew "ffmpeg"
+# brew "fzf"
+brew "gnupg"
+brew "git-delta"
+# brew "git-lfs"
+# brew "ghc"
+# brew "graphviz"
+# brew "go"
+# brew "ipcalc"
+brew "jq"
 brew "mas"
-brew "hey"
-brew "nmap"
-brew "zsh-completions"
-cask "docker"
-cask "keybase"
-cask "tableplus"
-cask "google-chrome"
-cask "visual-studio-code"
+brew "media-info"
+brew "mkvtoolnix"
+# brew "nmap"
+brew "node"
+# brew "php"
+brew "ripgrep"
+# brew "tsduck"
+brew "hashicorp/tap/terraform"
+cask "1password"
+cask "chatgpt"
+cask "deepl"
+cask "docker-desktop"
+cask "font-jetbrains-mono"
+# cask "google-chrome"
+# cask "nordlayer"
 cask "postman"
+cask "qflipper"
 cask "rectangle"
-mas "1Password 7", id: 1333542190
-mas "Xcode", id: 497799835
-mas "Slack", id: 803453959
-mas "NordVPN IKE", id: 1116599239
-mas "Tweetbot", id: 1384080005
-mas "Telegram", id: 747648890
-mas "Instapaper", id: 1481302432
+cask "session-manager-plugin"
+cask "slack"
+cask "tableplus"
+cask "visual-studio-code"
+mas "1Password for Safari", id: 1569813296
 mas "Amphetamine", id: 937984704
+mas "AusweisApp", id: 948660805
+mas "AWS Extend Switch Roles", id: 1592710340
+mas "Instapaper", id: 288545208
+# mas "Keynote", id: 409183694
 mas "Pages", id: 409201541
-mas "Numbers", id: 409203825
-mas "Keynote", id: 409183694
+# mas "Xcode", id: 497799835

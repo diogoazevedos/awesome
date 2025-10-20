@@ -22,9 +22,15 @@ syntax on
 " Default encoding
 set encoding=utf8
 
-" Text, tav and indent
-" Space
-set expandtab
+" Color scheme
+highlight LineNr ctermfg=60
+highlight Whitespace ctermfg=60
+highlight NonText ctermfg=60
+highlight SpecialKey ctermfg=60
+
+" Text, tab and indent
+" Tab
+set noexpandtab
 
 " Smart
 set smarttab
@@ -40,3 +46,14 @@ set wrap
 
 " Ruler
 set ruler
+
+" Show line number
+set number
+
+" Show hidden characters
+set list
+set listchars=tab:→\ ,space:·
+
+" Miscellaneous
+" Do not save backup files.
+set nobackup
