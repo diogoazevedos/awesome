@@ -32,6 +32,7 @@ My settings are synced using the built-in sync feature. These are the basics:
 	"editor.formatOnPaste": true,
 	"editor.bracketPairColorization.enabled": true,
 	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.occurrencesHighlight": "off",
 	"editor.renderLineHighlight": "all",
 	"editor.renderWhitespace": "all",
 	"editor.rulers": [
