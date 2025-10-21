@@ -3,24 +3,12 @@ source /opt/homebrew/opt/antidote/share/antidote/antidote.zsh
 zstyle ':antidote:bundle' file ~/.zplugins
 zstyle ':antidote:bundle' use-friendly-names 'yes'
 
-zstyle ':prezto:load' pmodule \
-	'utility' \
-	'completion' \
-	'editor' \
-	'syntax-highlighting' \
-	'history-substring-search' \
-	'autosuggestions' \
-	'environment' \
-	'homebrew' \
-	'terminal' \
-	'history' \
-	'directory' \
-	'spectrum' \
-	'git'
-
-zstyle ':prezto:*:*' color 'yes'
-
 antidote load
+
+for keymap in 'emacs' 'viins'; do
+	bindkey -M $keymap "$key_info[Up]" history-substring-search-up
+	bindkey -M $keymap "$key_info[Down]" history-substring-search-down
+done
 
 tabs -4
 
