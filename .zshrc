@@ -3,6 +3,8 @@ source /opt/homebrew/opt/antidote/share/antidote/antidote.zsh
 zstyle ':antidote:bundle' file ~/.config/zsh/plugins
 zstyle ':antidote:bundle' use-friendly-names 'yes'
 
+zstyle ':zephyr:plugin:completion' use-cache 'yes'
+
 antidote load
 
 for keymap in 'emacs' 'viins'; do
