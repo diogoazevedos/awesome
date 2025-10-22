@@ -12,6 +12,11 @@ for keymap in 'emacs' 'viins'; do
 	bindkey -M $keymap "$key_info[Down]" history-substring-search-down
 done
 
+alias l='ls -1A'
+alias ll='ls -l'
+alias la='ll -A'
+alias lr='ll -R'
+
 tabs -4
 
 export GPG_TTY=$(tty)
