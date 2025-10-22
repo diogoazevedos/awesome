@@ -11,7 +11,6 @@ brew bundle
 
 ln -s $(pwd)/.vimrc ~/.vimrc
 ln -s $(pwd)/.zshrc ~/.zshrc
-ln -s $(pwd)/.zplugins ~/.zplugins
 ln -s $(pwd)/.config ~/.config
 ln -s $(pwd)/.ssh ~/.ssh
 ```
