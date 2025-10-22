@@ -19,6 +19,10 @@ ln -s $(pwd)/.ssh ~/.ssh
 
 [Dracula](https://draculatheme.com) theme with [JetBrains Mono](https://www.jetbrains.com/lp/mono/) font.
 
+```sh
+fast-theme XDG:dracula
+```
+
 ## Code
 
 My settings are synced using the built-in sync feature. These are the basics:
