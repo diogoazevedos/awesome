@@ -1,14 +1,14 @@
 source /opt/homebrew/opt/antidote/share/antidote/antidote.zsh
 
 zstyle ':antidote:bundle' file ~/.config/zsh/plugins
-zstyle ':antidote:bundle' use-friendly-names 'yes'
+zstyle ':antidote:bundle' use-friendly-names yes
 
-zstyle ':zephyr:plugin:completion' use-cache 'yes'
+zstyle ':zephyr:plugin:completion' use-cache yes
 zstyle ':zephyr:plugin:editor:*' cursor style block
 
 antidote load
 
-for keymap in 'emacs' 'viins'; do
+for keymap in emacs viins; do
 	bindkey -M $keymap "$key_info[Up]" history-substring-search-up
 	bindkey -M $keymap "$key_info[Down]" history-substring-search-down
 done
