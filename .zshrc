@@ -5,22 +5,9 @@ zstyle ':antidote:bundle' use-friendly-names yes
 
 zstyle ':zephyr:plugin:completion' use-cache yes
 zstyle ':zephyr:plugin:editor:*' cursor style block
+zstyle ':zephyr:plugin:confd' directory ~/.config/zsh/rc.d
 
 antidote load
-
-for keymap in emacs viins; do
-	bindkey -M $keymap "$key_info[Up]" history-substring-search-up
-	bindkey -M $keymap "$key_info[Down]" history-substring-search-down
-done
-
-alias l='ls -1A'
-alias ll='ls -l'
-alias la='ll -A'
-alias lr='ll -R'
-
-alias gcD='git-amend-date'
-alias gfe='git-for-each'
-alias gSr='git-sync-repo'
 
 tabs -4
 
