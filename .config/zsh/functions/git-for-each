@@ -1,0 +1,3 @@
+# vim: set ft=zsh
+
+fd -td -H '^\.git$' -x dirname | xargs -P0 -I{} zsh -ic 'cd "{}" && '"$*"
