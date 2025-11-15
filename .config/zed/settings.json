@@ -1,0 +1,25 @@
+{
+	"hard_tabs": true,
+	"tab_size": 4,
+	"terminal": {
+		"font_family": "Monaco",
+		"minimum_contrast": 0.0
+	},
+	"preferred_line_length": 100,
+	"agent": {
+		"default_profile": "ask",
+		"default_model": {
+			"provider": "copilot_chat",
+			"model": "gpt-5"
+		}
+	},
+	"wrap_guides": [100, 120],
+	"show_whitespaces": "all",
+	"theme": "Dracula",
+	"buffer_font_family": "JetBrains Mono",
+	"features": {
+		"edit_prediction_provider": "copilot"
+	},
+	"base_keymap": "Atom",
+	"buffer_font_size": 13.0
+}
