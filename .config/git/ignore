@@ -1,1 +1,4 @@
 .DS_Store
+.cache
+.zed
+compile_commands.json
