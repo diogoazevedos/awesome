@@ -4,20 +4,22 @@ brew "antidote"
 brew "aws-vault"
 brew "awscli"
 brew "bat"
+brew "bear"
 brew "bento4"
 # brew "cabal-install"
+brew "clang-format"
 brew "dust"
 # brew "elixir"
 # brew "eza"
 brew "fd"
 brew "ffmpeg"
 # brew "fzf"
-brew "gnupg"
 brew "git-delta"
 # brew "git-lfs"
 # brew "ghc"
-# brew "graphviz"
+brew "gnupg"
 # brew "go"
+# brew "graphviz"
 # brew "ipcalc"
 brew "jq"
 brew "mas"
@@ -31,8 +33,10 @@ brew "ripgrep"
 # brew "zoxide"
 brew "hashicorp/tap/terraform"
 cask "1password"
+cask "1password-cli"
 cask "chatgpt"
 cask "deepl"
+cask "discord"
 cask "docker-desktop"
 cask "font-jetbrains-mono"
 # cask "google-chrome"
@@ -44,11 +48,13 @@ cask "session-manager-plugin"
 cask "slack"
 cask "tableplus"
 cask "visual-studio-code"
+cask "zed"
 mas "1Password for Safari", id: 1569813296
 mas "Amphetamine", id: 937984704
 mas "AusweisApp", id: 948660805
-mas "AWS Extend Switch Roles", id: 1592710340
 mas "Instapaper", id: 288545208
 # mas "Keynote", id: 409183694
+# mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+# mas "WireGuard", id: 1451685025
 # mas "Xcode", id: 497799835
