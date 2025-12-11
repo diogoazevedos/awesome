@@ -11,3 +11,5 @@ alias rm="rm -i"
 alias gcD='git-amend-date'
 alias gfe='git-for-each'
 alias gSr='git-sync-repo'
+
+alias aws="op plugin run -- aws"

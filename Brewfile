@@ -1,7 +1,6 @@
 tap "hashicorp/tap"
 brew "antidote"
 # brew "aws-nuke"
-brew "aws-vault"
 brew "awscli"
 brew "bat"
 brew "bear"
