@@ -1,0 +1,28 @@
+#compdef aws-exec
+# vim: set ft=zsh
+
+_aws-exec() {
+	_arguments -C \
+		'1: :->profile' \
+		'2: :(--)' \
+		'*: :->command'
+
+	case $state in
+		profile)
+			local -a profiles=($(cat ~/.aws/config | awk '/^\[profile/ {print $2;}' | tr -d \]))
+			_describe -t profile 'AWS Profiles' profiles
+			;;
+		command)
+			shift 3 words
+			(( CURRENT -= 3 ))
+
+			if (( CURRENT == 1 )); then
+				_command_names -e
+			else
+				_normal
+			fi
+			;;
+	esac
+}
+
+_aws-exec "$@"

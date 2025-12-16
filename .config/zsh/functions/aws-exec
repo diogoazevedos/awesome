@@ -1,0 +1,7 @@
+# vim: set ft=zsh
+
+(
+	eval "$(aws configure export-credentials --profile "$1" --format env)"
+	shift 2
+	exec "$@"
+)
