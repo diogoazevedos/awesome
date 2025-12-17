@@ -1,0 +1,9 @@
+#compdef aws-console
+# vim: set ft=zsh
+
+_aws-console() {
+	local -a profiles=($(cat ~/.aws/config | awk '/^\[profile/ {print $2;}' | tr -d \]))
+	_describe -t profile 'AWS Profiles' profiles
+}
+
+_aws-console "$@"

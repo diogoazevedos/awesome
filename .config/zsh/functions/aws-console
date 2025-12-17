@@ -1,0 +1,11 @@
+# vim: set ft=zsh
+
+local credentials=$(aws configure export-credentials --profile "$1") || return 1
+local session=$(jq -r '{sessionId: .AccessKeyId, sessionKey: .SecretAccessKey, sessionToken: .SessionToken} | tojson | @uri' <<< "$credentials")
+
+local region=$(aws configure get region --profile "$1")
+local destination=$(jq -r @uri <<< "\"https://console.aws.amazon.com/console/home?region=${region}\"")
+
+local signin_token=$(curl -s "https://signin.aws.amazon.com/federation?Action=getSigninToken&Session=${session}" | jq -r .SigninToken)
+
+open "https://signin.aws.amazon.com/federation?Action=login&Issuer=aws-login&Destination=${destination}&SigninToken=${signin_token}"
