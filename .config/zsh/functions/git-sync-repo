@@ -1,6 +1,6 @@
 # vim: set ft=zsh
 
-git stash save --include-untracked "git-sync-repo $(date '+%Y-%m-%d %H:%M:%S')"
+git stash push --include-untracked -m "git-sync-repo $(date '+%Y-%m-%d %H:%M:%S')"
 git fetch -pP
 git pull
 git submodule update --init --recursive
