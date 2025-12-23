@@ -1,6 +1,8 @@
 # vim: set ft=zsh
 
 (
+	set -euo pipefail
+
 	eval "$(aws configure export-credentials --profile "$1" --format env)"
 	shift 2
 	exec "$@"

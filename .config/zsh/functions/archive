@@ -1,3 +1,7 @@
 # vim: set ft=zsh
 
-tar -c "$1" | xz -9e -T0 > "$(basename "$1").tar.xz"
+(
+	set -euo pipefail
+
+	tar -c "$1" | xz -9e -T0 > "$(basename "$1").tar.xz"
+)

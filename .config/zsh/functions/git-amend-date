@@ -1,5 +1,9 @@
 # vim: set ft=zsh
 
-local commit_date="${1:-$(date)}"
-shift
-GIT_COMMITTER_DATE="$commit_date" git commit --amend --date "$commit_date" "$@"
+(
+	set -euo pipefail
+
+	local commit_date="${1:-$(date)}"
+	shift
+	GIT_COMMITTER_DATE="$commit_date" git commit --amend --date "$commit_date" "$@"
+)
