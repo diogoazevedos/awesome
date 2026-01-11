@@ -7,6 +7,11 @@
 		"minimum_contrast": 0.0
 	},
 	"preferred_line_length": 100,
+	"git": {
+		"inline_blame": {
+			"show_commit_summary": true
+		}
+	},
 	"agent": {
 		"default_profile": "ask",
 		"default_model": {
