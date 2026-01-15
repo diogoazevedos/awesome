@@ -26,6 +26,9 @@
 	"features": {
 		"edit_prediction_provider": "copilot"
 	},
+	"calls": {
+		"mute_on_join": true
+	},
 	"base_keymap": "Atom",
 	"buffer_font_size": 13.0
 }
