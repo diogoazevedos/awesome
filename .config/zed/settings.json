@@ -14,7 +14,6 @@
 		"mute_on_join": true
 	},
 	"agent": {
-		"default_profile": "ask",
 		"default_model": {
 			"provider": "copilot_chat",
 			"model": "claude-opus-4.5"
@@ -22,23 +21,15 @@
 		"favorite_models": [
 			{
 				"provider": "copilot_chat",
+				"model": "gpt-5.2"
+			},
+			{
+				"provider": "copilot_chat",
 				"model": "claude-opus-4.5"
 			},
 			{
 				"provider": "copilot_chat",
 				"model": "gemini-3-pro-preview"
-			},
-			{
-				"provider": "copilot_chat",
-				"model": "gpt-5.1"
-			},
-			{
-				"provider": "copilot_chat",
-				"model": "claude-sonnet-4.5"
-			},
-			{
-				"provider": "copilot_chat",
-				"model": "gpt-5.1-codex-max"
 			}
 		]
 	},
