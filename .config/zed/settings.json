@@ -5,6 +5,7 @@
 	"preferred_line_length": 100,
 	"wrap_guides": [100, 120],
 	"show_whitespaces": "all",
+	"colorize_brackets": true,
 	"git": {
 		"inline_blame": {
 			"show_commit_summary": true
