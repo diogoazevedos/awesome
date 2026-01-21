@@ -31,6 +31,12 @@
 			"provider": "copilot_chat",
 			"model": "gemini-3-pro-preview"
 		},
+		"inline_alternatives": [
+			{
+				"provider": "copilot_chat",
+				"model": "gpt-5.2"
+			}
+		],
 		"favorite_models": [
 			{
 				"provider": "copilot_chat",
