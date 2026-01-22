@@ -1,0 +1,11 @@
+*
+!.gitignore
+!bat/
+!bat/*
+!fsh/
+!fsh/*
+!git/
+!git/*
+!zed/
+!zsh/
+!zsh/**
