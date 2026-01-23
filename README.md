@@ -9,10 +9,10 @@ curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh | 
 
 brew bundle
 
-ln -s $(pwd)/.vimrc ~/.vimrc
-ln -s $(pwd)/.zshrc ~/.zshrc
 ln -s $(pwd)/.config ~/.config
 ln -s $(pwd)/.ssh ~/.ssh
+ln -s $(pwd)/.vimrc ~/.vimrc
+cp $(pwd)/.zshrc ~/.zshrc
 ```
 
 ## Theme and Font
