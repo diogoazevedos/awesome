@@ -53,8 +53,8 @@ mas "1Password for Safari", id: 1569813296
 mas "Amphetamine", id: 937984704
 mas "AusweisApp", id: 948660805
 mas "Instapaper", id: 288545208
-# mas "Keynote", id: 409183694
-# mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
+# mas "Keynote", id: 361285480
+# mas "Numbers", id: 361304891
+mas "Pages", id: 361309726
 # mas "WireGuard", id: 1451685025
 # mas "Xcode", id: 497799835
