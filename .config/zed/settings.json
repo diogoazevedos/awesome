@@ -6,6 +6,9 @@
 	"wrap_guides": [100, 120],
 	"show_whitespaces": "all",
 	"colorize_brackets": true,
+	"indent_guides": {
+		"coloring": "indent_aware"
+	},
 	"git": {
 		"inline_blame": {
 			"show_commit_summary": true
