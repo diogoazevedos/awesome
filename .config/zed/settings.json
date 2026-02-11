@@ -70,5 +70,9 @@
 	"terminal": {
 		"font_family": "Monaco",
 		"minimum_contrast": 0.0
+	},
+	"telemetry": {
+		"diagnostics": false,
+		"metrics": false
 	}
 }
