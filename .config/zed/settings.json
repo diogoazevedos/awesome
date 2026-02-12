@@ -9,6 +9,9 @@
 	"indent_guides": {
 		"coloring": "indent_aware"
 	},
+	"inlay_hints": {
+		"enabled": true
+	},
 	"git": {
 		"inline_blame": {
 			"show_commit_summary": true
