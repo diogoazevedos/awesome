@@ -206,7 +206,7 @@
 					"emphasis.strong": {
 						"color": "#ffb86cff",
 						"font_style": null,
-						"font_weight": 700
+						"font_weight": 600
 					},
 					"enum": {
 						"color": "#bd93f9ff",
@@ -219,9 +219,9 @@
 						"font_weight": null
 					},
 					"hint": {
-						"color": "#bd93f9ff",
-						"font_style": null,
-						"font_weight": 700
+						"color": "#6272a4ff",
+						"font_style": "italic",
+						"font_weight": null
 					},
 					"keyword": {
 						"color": "#ff79c6ff",
