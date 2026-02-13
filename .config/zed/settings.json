@@ -9,6 +9,9 @@
 	"indent_guides": {
 		"coloring": "indent_aware"
 	},
+	"file_finder": {
+		"modal_max_width": "medium"
+	},
 	"inlay_hints": {
 		"enabled": true
 	},
