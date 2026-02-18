@@ -26,7 +26,7 @@
 	"agent": {
 		"default_model": {
 			"provider": "copilot_chat",
-			"model": "claude-sonnet-4.5"
+			"model": "claude-sonnet-4.6"
 		},
 		"inline_assistant_model": {
 			"provider": "copilot_chat",
@@ -49,7 +49,7 @@
 		"favorite_models": [
 			{
 				"provider": "copilot_chat",
-				"model": "claude-sonnet-4.5"
+				"model": "claude-sonnet-4.6"
 			},
 			{
 				"provider": "copilot_chat",
