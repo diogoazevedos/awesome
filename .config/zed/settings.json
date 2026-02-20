@@ -69,6 +69,13 @@
 			}
 		]
 	},
+	"languages": {
+		"TypeScript": {
+			"inlay_hints": {
+				"show_type_hints": false
+			}
+		}
+	},
 	"edit_predictions": {
 		"provider": "copilot"
 	},
