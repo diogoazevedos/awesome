@@ -1,0 +1,25 @@
+[
+	{
+		"label": "Configure Nginx",
+		"command": "auto/configure",
+		"args": [
+			"--error-log-path=/dev/stderr",
+			"--with-cc-opt=\"-O0 -I$(brew --prefix openssl)/include -I$(brew --prefix ffmpeg)/include -I$(brew --prefix libiconv)/include\"",
+			"--with-ld-opt=\"-L$(brew --prefix openssl)/lib -L$(brew --prefix ffmpeg)/lib -L$(brew --prefix libiconv)/lib\"",
+			"--with-debug",
+			"--with-http_ssl_module",
+			"--add-module=$ZED_WORKTREE_ROOT/../NginxVodModule"
+		],
+		"cwd": "$ZED_WORKTREE_ROOT/../Nginx"
+	},
+	{
+		"label": "Make Nginx",
+		"command": "bear -o $ZED_WORKTREE_ROOT/../NginxVodModule/compile_commands.json -- make -j",
+		"cwd": "$ZED_WORKTREE_ROOT/../Nginx"
+	},
+	{
+		"label": "Origin Demo",
+		"command": "npx http-server demo -p 8080 -g --cors",
+		"cwd": "$ZED_WORKTREE_ROOT/../NginxVodModule"
+	}
+]

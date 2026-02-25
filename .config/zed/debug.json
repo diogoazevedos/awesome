@@ -1,0 +1,14 @@
+[
+	{
+		"label": "Debug Nginx",
+		"adapter": "CodeLLDB",
+		"request": "launch",
+		"program": "$ZED_WORKTREE_ROOT/../Nginx/objs/nginx",
+		"args": ["-p", "/tmp", "-c", "$ZED_WORKTREE_ROOT/../NginxVodModule/sample/debug.conf"],
+		"build": {
+			"command": "make",
+			"args": ["-j"],
+			"cwd": "$ZED_WORKTREE_ROOT/../Nginx"
+		}
+	}
+]
