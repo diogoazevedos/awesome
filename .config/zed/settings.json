@@ -53,7 +53,7 @@
 			},
 			{
 				"provider": "copilot_chat",
-				"model": "gpt-5.2"
+				"model": "gpt-5.4"
 			},
 			{
 				"provider": "copilot_chat",
