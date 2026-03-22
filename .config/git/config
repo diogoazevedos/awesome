@@ -10,6 +10,8 @@
 	gpgSign = true
 [credential]
 	helper = osxkeychain
+[http]
+	cookieFile = ~/.config/git/cookie
 [push]
 	default = simple
 	autoSetupRemote = true
