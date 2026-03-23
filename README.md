@@ -15,6 +15,12 @@ ln -s $(pwd)/.vimrc ~/.vimrc
 cp $(pwd)/.zshrc ~/.zshrc
 ```
 
+### Time Machine
+
+```sh
+tmutil addexclusion ~/Library/Group\ Containers/HUAQ24HBR6.dev.orbstack/data
+```
+
 ## Theme and Font
 
 [Dracula](https://draculatheme.com) theme with [JetBrains Mono](https://www.jetbrains.com/lp/mono/) font.
