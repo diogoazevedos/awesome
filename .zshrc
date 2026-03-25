@@ -1,7 +1,6 @@
 source /opt/homebrew/opt/antidote/share/antidote/antidote.zsh
 
 zstyle ':antidote:bundle' file ~/.config/zsh/plugins
-zstyle ':antidote:bundle' use-friendly-names yes
 
 zstyle ':zephyr:plugin:completion' use-cache yes
 zstyle ':zephyr:plugin:editor:*' cursor style block
