@@ -70,7 +70,26 @@
 				"provider": "copilot_chat",
 				"model": "gpt-5-mini"
 			}
-		]
+		],
+		"tool_permissions": {
+			"tools": {
+				"terminal": {
+					"always_allow": [
+						{ "pattern": "^cat\\b" },
+						{ "pattern": "^ls\\b" },
+						{ "pattern": "^head\\b" },
+						{ "pattern": "^grep\\b" },
+						{ "pattern": "^find\\b" },
+						{ "pattern": "^diff\\b" },
+						{ "pattern": "^echo\\b" },
+						{ "pattern": "^sed\\s-n\\b" }
+					]
+				},
+				"fetch": {
+					"always_allow": [{ "pattern": "github\\.com" }]
+				}
+			}
+		}
 	},
 	"agent_servers": {
 		"claude-acp": {
