@@ -78,6 +78,7 @@
 						{ "pattern": "^cat\\b" },
 						{ "pattern": "^ls\\b" },
 						{ "pattern": "^head\\b" },
+						{ "pattern": "^tail\\b" },
 						{ "pattern": "^grep\\b" },
 						{ "pattern": "^find\\b" },
 						{ "pattern": "^diff\\b" },
