@@ -15,7 +15,6 @@
 	"inlay_hints": {
 		"enabled": true
 	},
-	"diff_view_style": "unified",
 	"git": {
 		"inline_blame": {
 			"show_commit_summary": true
