@@ -87,6 +87,7 @@
 						{ "pattern": "^diff\\b" },
 						{ "pattern": "^echo\\b" },
 						{ "pattern": "^sed\\s-n\\b" },
+						{ "pattern": "^wc\\b" },
 					],
 				},
 				"fetch": {
