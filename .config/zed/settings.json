@@ -7,72 +7,72 @@
 	"show_whitespaces": "all",
 	"colorize_brackets": true,
 	"indent_guides": {
-		"coloring": "indent_aware"
+		"coloring": "indent_aware",
 	},
 	"file_finder": {
-		"modal_max_width": "medium"
+		"modal_max_width": "medium",
 	},
 	"inlay_hints": {
-		"enabled": true
+		"enabled": true,
 	},
 	"git": {
 		"inline_blame": {
-			"show_commit_summary": true
-		}
+			"show_commit_summary": true,
+		},
 	},
 	"calls": {
-		"mute_on_join": true
+		"mute_on_join": true,
 	},
 	"agent": {
 		"default_model": {
 			"provider": "copilot_chat",
 			"model": "claude-sonnet-4.6",
 			"enable_thinking": true,
-			"effort": "high"
+			"effort": "high",
 		},
 		"inline_assistant_model": {
 			"provider": "copilot_chat",
-			"model": "gpt-5.3-codex"
+			"model": "gpt-5.3-codex",
 		},
 		"commit_message_model": {
 			"provider": "copilot_chat",
-			"model": "gpt-5-mini"
+			"model": "gpt-5-mini",
 		},
 		"thread_summary_model": {
 			"provider": "copilot_chat",
-			"model": "gpt-5-mini"
+			"model": "gpt-5-mini",
 		},
 		"inline_alternatives": [
 			{
 				"provider": "copilot_chat",
-				"model": "claude-opus-4.6"
-			}
+				"model": "claude-opus-4.6",
+			},
 		],
 		"favorite_models": [
 			{
 				"provider": "copilot_chat",
-				"model": "claude-sonnet-4.6"
+				"model": "claude-sonnet-4.6",
 			},
 			{
 				"provider": "copilot_chat",
-				"model": "gpt-5.4"
+				"model": "gpt-5.4",
 			},
 			{
 				"provider": "copilot_chat",
-				"model": "gemini-3.1-pro-preview"
+				"model": "gemini-3.1-pro-preview",
 			},
 			{
 				"provider": "copilot_chat",
-				"model": "claude-opus-4.6"
+				"model": "claude-opus-4.6",
 			},
 			{
 				"provider": "copilot_chat",
-				"model": "claude-opus-4.7"
+				"model": "claude-opus-4.7",
 			},
 			{
 				"provider": "copilot_chat",
-				"model": "gpt-5-mini"
-			}
+				"model": "gpt-5-mini",
+			},
 		],
 		"tool_permissions": {
 			"tools": {
@@ -86,29 +86,29 @@
 						{ "pattern": "^find\\b" },
 						{ "pattern": "^diff\\b" },
 						{ "pattern": "^echo\\b" },
-						{ "pattern": "^sed\\s-n\\b" }
-					]
+						{ "pattern": "^sed\\s-n\\b" },
+					],
 				},
 				"fetch": {
-					"always_allow": [{ "pattern": "github\\.com" }]
-				}
-			}
-		}
+					"always_allow": [{ "pattern": "github\\.com" }],
+				},
+			},
+		},
 	},
 	"agent_servers": {
 		"claude-acp": {
-			"type": "registry"
-		}
+			"type": "registry",
+		},
 	},
 	"languages": {
 		"TypeScript": {
 			"inlay_hints": {
-				"show_type_hints": false
-			}
-		}
+				"show_type_hints": false,
+			},
+		},
 	},
 	"edit_predictions": {
-		"provider": "copilot"
+		"provider": "copilot",
 	},
 	"theme": "Dracula",
 	"base_keymap": "Atom",
@@ -116,10 +116,10 @@
 	"buffer_font_size": 13.0,
 	"terminal": {
 		"font_family": "Monaco",
-		"minimum_contrast": 0.0
+		"minimum_contrast": 0.0,
 	},
 	"telemetry": {
 		"diagnostics": false,
-		"metrics": false
-	}
+		"metrics": false,
+	},
 }
