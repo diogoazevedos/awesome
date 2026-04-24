@@ -101,7 +101,10 @@
 					],
 				},
 				"fetch": {
-					"always_allow": [{ "pattern": "github\\.com" }],
+					"always_allow": [
+						{ "pattern": "github\\.com" },
+						{ "pattern": "raw\\.githubusercontent\\.com" },
+					],
 				},
 			},
 		},
