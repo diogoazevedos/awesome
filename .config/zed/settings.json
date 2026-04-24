@@ -25,10 +25,10 @@
 	},
 	"agent": {
 		"default_model": {
+			"effort": "high",
 			"provider": "copilot_chat",
 			"model": "claude-sonnet-4.6",
 			"enable_thinking": true,
-			"effort": "high",
 		},
 		"inline_assistant_model": {
 			"provider": "copilot_chat",
@@ -52,26 +52,36 @@
 			{
 				"provider": "copilot_chat",
 				"model": "claude-sonnet-4.6",
+				"enable_thinking": true,
+				"effort": "high",
 			},
 			{
 				"provider": "copilot_chat",
 				"model": "gpt-5.4",
+				"enable_thinking": false,
 			},
 			{
 				"provider": "copilot_chat",
 				"model": "gemini-3.1-pro-preview",
+				"enable_thinking": true,
+				"effort": "high",
 			},
 			{
 				"provider": "copilot_chat",
 				"model": "claude-opus-4.6",
+				"enable_thinking": true,
+				"effort": "high",
 			},
 			{
 				"provider": "copilot_chat",
 				"model": "claude-opus-4.7",
+				"enable_thinking": true,
+				"effort": "medium",
 			},
 			{
 				"provider": "copilot_chat",
 				"model": "gpt-5-mini",
+				"enable_thinking": false,
 			},
 		],
 		"tool_permissions": {
