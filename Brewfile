@@ -64,7 +64,6 @@ cask "rectangle"
 cask "session-manager-plugin"
 cask "slack"
 cask "tableplus"
-cask "visual-studio-code"
 # cask "vlc"
 cask "zed"
 mas "1Password for Safari", id: 1569813296
