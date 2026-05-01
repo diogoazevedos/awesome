@@ -12,7 +12,7 @@ brew bundle
 ln -s $(pwd)/.config ~/.config
 ln -s $(pwd)/.ssh ~/.ssh
 ln -s $(pwd)/.vimrc ~/.vimrc
-cp $(pwd)/.zshrc ~/.zshrc
+cp .zshrc ~/.zshrc
 ```
 
 ### Time Machine
