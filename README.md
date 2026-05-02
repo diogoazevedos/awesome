@@ -21,6 +21,12 @@ cp .zshrc ~/.zshrc
 tmutil addexclusion ~/Library/Group\ Containers/HUAQ24HBR6.dev.orbstack/data
 ```
 
+### Rust
+
+```sh
+brew link --force rustup
+```
+
 ## Theme and Font
 
 [Dracula](https://draculatheme.com) theme with [JetBrains Mono](https://www.jetbrains.com/lp/mono/) font.
