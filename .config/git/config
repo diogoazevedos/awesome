@@ -1,6 +1,6 @@
 [user]
 	name = Diogo Azevedo
-	email = diogoazevedos@gmail.com
+	email = hi@dio-az.dev
 	signingKey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIH6ycYBljkjA6shc+K0OlXbSaBKXcpAqkv7Qmy1u/XrW
 [init]
 	defaultBranch = main
