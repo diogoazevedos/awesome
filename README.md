@@ -27,6 +27,12 @@ tmutil addexclusion ~/Library/Group\ Containers/HUAQ24HBR6.dev.orbstack/data
 brew link --force rustup
 ```
 
+### .NET
+
+```sh
+ln -s $(pwd)/launch-agents/env.dotnet.plist ~/Library/LaunchAgents/
+```
+
 ## Theme and Font
 
 [Dracula](https://draculatheme.com) theme with [JetBrains Mono](https://www.jetbrains.com/lp/mono/) font.
