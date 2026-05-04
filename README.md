@@ -1,6 +1,6 @@
-# Awesome
+# ~dio-az
 
-This repository contains all my personal settings.
+Personal dotfiles for editor, shell, git and tooling.
 
 ## Install
 
