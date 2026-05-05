@@ -9,10 +9,8 @@ curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh | 
 
 brew bundle
 
-ln -s $(pwd)/.config ~/.config
-ln -s $(pwd)/.ssh ~/.ssh
-ln -s $(pwd)/.vimrc ~/.vimrc
-cp .zshrc ~/.zshrc
+ln -s ${PWD#$HOME/}/.config ${PWD#$HOME/}/.ssh ${PWD#$HOME/}/.vimrc ~
+cp .zshrc ~
 ```
 
 ### Time Machine
@@ -30,7 +28,7 @@ brew link --force rustup
 ### .NET
 
 ```sh
-ln -s $(pwd)/launch-agents/env.dotnet.plist ~/Library/LaunchAgents/
+ln -s ${PWD#$HOME/}/launch-agents/env.dotnet.plist ~/Library/LaunchAgents/
 ```
 
 ## Theme and Font
